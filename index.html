@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+</head>
+<body>
+	<div class="sidebar">
+		<a href="#" class="sidebar__logo">
+			<img src="1.png" alt="" class="sidebar__logo-img">
+			<span class="sidebar__logo-text">v.01</span>
+		</a>
+		<a href="#" class="sidebar__link">
+			<img src="2.png" alt="" class="sidebar__link-img">
+			<span class="sidebar__link-text">Dashboard</span>
+		</a>
+		<a href="#" class="sidebar__link">
+			<img src="3.png" alt="" class="sidebar__link-img">
+			<span class="sidebar__link-text">Product</span>
+			<img src="4.png" alt="" class="sidebar__link-icon">
+		</a>
+		<a href="#" class="sidebar__link sidebar__link--active">
+			<img src="5.png" alt="" class="sidebar__link-img">
+			<span class="sidebar__link-text">Customers</span>
+			<img src="9.png" alt="" class="sidebar__link-icon">
+		</a>
+		<a href="#" class="sidebar__link">
+			<img src="6.png" alt="" class="sidebar__link-img">
+			<span class="sidebar__link-text">Income</span>
+			<img src="4.png" alt="" class="sidebar__link-icon">
+		</a>
+		<a href="#" class="sidebar__link">
+			<img src="7.png" alt="" class="sidebar__link-img">
+			<span class="sidebar__link-text">Promote</span>
+			<img src="4.png" alt="" class="sidebar__link-icon">
+		</a>
+		<a href="#" class="sidebar__link">
+			<img src="8.png" alt="" class="sidebar__link-img">
+			<span class="sidebar__link-text">Help</span>
+			<img src="4.png" alt="" class="sidebar__link-icon">
+		</a>
+		<a href="#" class="sidebar__link">
+			<img src="10.png" alt="" class="sidebar__link-img">
+			<div class="text">
+				<span class="text__name">Evano</span>
+				<span class="text__position">Project Manager</span>
+			</div>
+		</a>
+	</div>
+
+<div class="content">
+
+	<div class="hello">
+		<h1 class="hello__heading">Hello Evano 👋</h1>
+	</div>
+
+	<div class="customer-block">
+		<div class="customer-header">
+			<div class="headers">
+				<h1 class="headers__title">All Customers</h1>
+			    <p class="headers__status">Active Members</p>
+			</div>
+			<input type="text" placeholder="Search..." class="customer-header__search">
+		</div>
+		<table>
+    <thead>
+        <tr>
+            <th class="customer-table__header">Customer Name</th>
+            <th class="customer-table__header">Company</th>
+            <th class="customer-table__header">Phone Number</th>
+            <th class="customer-table__header">Email</th>
+            <th class="customer-table__header">Country</th>
+            <th class="customer-table__header">Status</th>
+        </tr>
+        <tr>
+            <td colspan="6"><hr></td>
+        </tr>
+    </thead>
+    <tbody>
+         <tr>
+            <td class="customer-table__data">Jane Cooper</td>
+            <td class="customer-table__data">Microsoft</td>
+            <td class="customer-table__data">(225) 555-0118</td>
+            <td class="customer-table__data">jane@microsoft.com</td>
+            <td class="customer-table__data">United States</td>
+            <td class="customer-table__data">
+                <button class="customer-table__status customer-table__status--active">Active</button>
+            </td>
+        </tr>
+        <tr class="customer-table__hr-row">
+            <td colspan="6" class="customer-table__hr"><hr></td>
+        </tr>
+         <tr>
+            <td class="customer-table__data">Floyd Miles</td>
+            <td class="customer-table__data">Yahoo</td>
+            <td class="customer-table__data">(205) 555-0100</td>
+            <td class="customer-table__data">floyd@yahoo.com</td>
+            <td class="customer-table__data">Kiribati</td>
+            <td class="customer-table__data">
+                <button class="customer-table__status customer-table__status--inactive">Inactive</button>
+            </td>
+        </tr>
+        <tr class="customer-table__hr-row">
+            <td colspan="6" class="customer-table__hr"><hr></td>
+        </tr>
+        <tr>
+            <td class="customer-table__data">Ronald Richards</td>
+            <td class="customer-table__data">Adobe</td>
+            <td class="customer-table__data">(302) 555-0107</td>
+            <td class="customer-table__data">ronald@adobe.com</td>
+            <td class="customer-table__data">Israel</td>
+            <td class="customer-table__data">
+                <button class="customer-table__status customer-table__status--inactive">Inactive</button>
+            </td>
+        </tr>
+        <tr class="customer-table__hr-row">
+            <td colspan="6" class="customer-table__hr"><hr></td>
+        </tr>
+        <tr>
+		    <td class="customer-table__data">Marvin McKinney</td>
+		    <td class="customer-table__data">Tesla</td>
+		    <td class="customer-table__data">(252) 555-0126</td>
+		    <td class="customer-table__data">marvin@tesla.com</td>
+		    <td class="customer-table__data">Iran</td>
+		    <td class="customer-table__data">
+		    	<button class="customer-table__status customer-table__status--active">Active</button>
+    		</td>
+    	</tr>
+    	<tr class="customer-table__hr-row">
+    		<td colspan="6" class="customer-table__hr"><hr></td>
+    	</tr>
+    	<tr>
+		    <td class="customer-table__data">Jerome Bell</td>
+		    <td class="customer-table__data">Google</td>
+		    <td class="customer-table__data">(629) 555-0129</td>
+		    <td class="customer-table__data">jerome@google.com</td>
+		    <td class="customer-table__data">Réunion</td>
+		    <td class="customer-table__data">
+		    	<button class="customer-table__status customer-table__status--active">Active</button>
+		    </td>
+		</tr>
+		<tr class="customer-table__hr-row">
+			<td colspan="6" class="customer-table__hr"><hr></td>
+		</tr>
+		<tr>
+		    <td class="customer-table__data">Kathryn Murphy</td>
+		    <td class="customer-table__data">Microsoft</td>
+		    <td class="customer-table__data">(406) 555-0120</td>
+		    <td class="customer-table__data">kathryn@microsoft.com</td>
+		    <td class="customer-table__data">Curaçao</td>
+		    <td class="customer-table__data">
+		    	<button class="customer-table__status customer-table__status--active">Active</button>
+		    </td>
+		</tr>
+		<tr class="customer-table__hr-row">
+			<td colspan="6" class="customer-table__hr"><hr></td>
+		</tr>
+		<tr>
+		    <td class="customer-table__data">Jacob Jones</td>
+		    <td class="customer-table__data">Yahoo</td>
+		    <td class="customer-table__data">(208) 555-0112</td>
+		    <td class="customer-table__data">jacob@yahoo.com</td>
+		    <td class="customer-table__data">Brazil</td>
+		    <td class="customer-table__data">
+		    	<button class="customer-table__status customer-table__status--active">Active</button>
+		    </td>
+		</tr>
+		<tr class="customer-table__hr-row">
+			<td colspan="6" class="customer-table__hr"><hr></td>
+		</tr>
+		<tr>
+		    <td class="customer-table__data">Kristin Watson</td>
+		    <td class="customer-table__data">Facebook</td>
+		    <td class="customer-table__data">(704) 555-0127</td>
+		    <td class="customer-table__data">kristin@facebook.com</td>
+		    <td class="customer-table__data">Åland Islands</td>
+		    <td class="customer-table__data">
+		    	<button class="customer-table__status customer-table__status--inactive">Inactive</button>
+		    </td>
+		</tr>
+		<tr class="customer-table__hr-row">
+			<td colspan="6" class="customer-table__hr"><hr></td>
+		</tr>
+        <!-- Вставте інші рядки таблиці тут -->
+    </tbody>
+</table>
+		<div class="entries">
+			<div class="text">
+				<p>Showing data 1 to 8 of  256K entries</p>
+			</div>
+			<div class="buttons">
+				<button class="buttons__arrow">&lt;</button>
+				<a href="#" class="buttons__page">1</a>
+				<a href="#" class="buttons__page">2</a>
+				<a href="#" class="buttons__page">3</a>
+				<a href="#" class="buttons__page">4</a>
+				<a href="#" class="buttons__page">...</a>
+				<a href="#" class="buttons__page">40</a>
+				<button class="buttons__arrow">&gt;</button>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
